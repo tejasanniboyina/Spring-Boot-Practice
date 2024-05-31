@@ -11,6 +11,10 @@ public class FirstBootApplication {
 		ConfigurableApplicationContext context = SpringApplication.run(FirstBootApplication.class, args);
 		Person p = (Person)context.getBean(Person.class);
 		p.show();
+		
+//		Person p1 = (Person)context.getBean(Person.class);
+//		p1.show();
+		
 	}
 
 }
